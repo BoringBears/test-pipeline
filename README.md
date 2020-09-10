@@ -10,7 +10,7 @@ AWS EC2, security group, load balancer, nodejs
 sudo apt update \
 sudo apt -y install nodejs \
 sudo apt -y install npm \
-nodejs -v \
+nodejs -v 
 ## git clone demo app to VM
 git clone https://github.com/BoringBears/test-pipeline.git
 
