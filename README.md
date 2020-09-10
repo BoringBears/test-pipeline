@@ -22,4 +22,4 @@ nodejs app &
 
 ## 6. Wait until ALB ready, check the health status 
 
-## 7. visit ALB DNS hostName, refresh page and check the message, shutdown app on one vm and watch the result
+## 7. visit ALB DNS hostName, refresh page and check the message
