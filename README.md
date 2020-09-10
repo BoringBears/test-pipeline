@@ -4,21 +4,23 @@
 ##Tech Stack:
 AWS EC2, security group, load balancer, nodejs
 
-## Create an EC2 instance - ubuntu 18.04
+## 1. Create an EC2 instance - ubuntu 18.04
 
-## setup nodejs:
+## 2. setup nodejs:
 sudo apt update \
 sudo apt -y install nodejs \
 sudo apt -y install npm \
 nodejs -v 
-## git clone demo app to VM
+## 3. git clone demo app to VM
 git clone https://github.com/BoringBears/test-pipeline.git
 
-## start node app
+## 4. start node app
 nodejs app &
 
-Repeat step 1-4 to create another ec2 instance
+## Repeat step 1-4 to create another ec2 instance
 
-## setup an ALB, listen to http 80 and forward to port 8081
+## 5. setup an ALB, listen to http 80 and forward to port 8081
 
-## visit ALB DNS hostName
+## 6. Wait until ALB ready, check the health status 
+
+## 7. visit ALB DNS hostName, refresh page and watch the 
