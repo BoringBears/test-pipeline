@@ -17,7 +17,7 @@ nodejs -v
 git clone https://github.com/BoringBears/test-pipeline.git
 
 ## 4. start node app
-nodejs app &
+nodejs app.js &
 
 ## Repeat step 1-4 to create another ec2 instance
 
