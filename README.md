@@ -1,6 +1,9 @@
 <a href="https://snyk.io/test/github/BoringBears/test-pipeline?targetFile=package.json"><img src="https://snyk.io/test/github/BoringBears/test-pipeline/badge.svg?targetFile=package.json" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/BoringBears/test-pipeline?targetFile=package.json" style="max-width:100%;"></a>
 
-# Tech Stack:
+## Topic:
+setup load balancer on AWS, help keep nodejs app alive
+
+## Tech Stack:
 AWS EC2, security group, load balancer, nodejs, github
 
 ## 1. Create an EC2 instance - ubuntu 18.04
