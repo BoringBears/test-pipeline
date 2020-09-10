@@ -7,10 +7,10 @@ AWS EC2, security group, load balancer, nodejs
 ## Create an EC2 instance - ubuntu 18.04
 
 ## setup nodejs:
-<code>sudo apt update
-sudo apt -y install nodejs
-sudo apt -y install npm
-nodejs -v</code>
+sudo apt update \ 
+sudo apt -y install nodejs \
+sudo apt -y install npm \
+nodejs -v \ 
 ## git clone demo app to VM
 git clone https://github.com/BoringBears/test-pipeline.git
 
